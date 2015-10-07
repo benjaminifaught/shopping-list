@@ -1,10 +1,11 @@
 body {
 
 	background-image: url('../images/vegetables.jpeg');
+	background-repeat: no-repeat;
 }
 
 .container {
-	width: 700px;
+	width: 650px;
 	margin: 0 auto;
 }
 .input {
@@ -27,11 +28,11 @@ h1 {
 }
 button {
 	height: 24px;
-	width: 24px;
+	width: 44px;
 	background: none;
 	font-size: 18px;
 	border: 2px solid;
-	border-radius: 5px;
+	border-radius: 15px;
 	padding: 0 0 4px 0;
 }
 h2 {
@@ -47,6 +48,7 @@ h2 {
 #list li {
 	font-size: 24px;
 	font-weight: bold;
+	cursor: pointer;
 }
 span {
 	margin: 0;
@@ -59,12 +61,20 @@ span {
 	width: 17px;
 	background: url('../images/box_Sprite.png') 0 0;
 }
+.checked {
+	height: 18px;
+	background: url('../images/box_Sprite.png') 17px 0;
+}
+.strike {
+	text-decoration: line-through;
+}
 .delete {
 	float: right;
 	margin-top: 3px;
 }
-
-
+.show {
+	display: inline;
+}
 
 
 
